@@ -1,9 +1,9 @@
 # Daemon_Monitor_enhance
 
-1. Activate enviroment **"daemonEnv"**
+1. Activate environment **"daemonEnv"**
    source daemonEnv/bin/activate
 
-2. Start the mysql docker container and create a database and update the instance and database creadentials on .env file.
+2. Start the MySQL docker container, create a database, and update the instance and database credentials on the .env file.
    **create a table**
    CREATE TABLE `DaemonDetails` (
   `daemon_name` varchar(255) DEFAULT NULL,
@@ -17,3 +17,6 @@
   
 4. python3 run.py
    It will host the application at "http://127.0.0.1:5000/"
+
+5. to activate front-end 
+   https://github.com/birendramondal/Frontend_Daemon_Monitor
